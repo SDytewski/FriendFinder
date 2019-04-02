@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Friend Finder Survey</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body alt="Chain of paper friends in circle">
+	<div class="container">
+		<div class="jumbotron">
+
+			<h1>Friend Finder Survey</h1>
+			<hr>
+			<h4>Answer a few basic questions.</h4>
+			<h4>Then find the friend with the greatest compatibility!</h4>
+			<hr>
+			
+			<form>
+				<div class="form-group">
+					<label for="userName">Your Name (Required)</label>
+					<input type="text" class="form-control" id="friendName" placeholder="Enter Your Name">
+				</div>
+				<!-- <div class="form-group">
+					<label for="exampleInputPassword1">Link to Photo Image (Required)</label>
+					<input type="password" class="form-control" id="exampleInputPassword1 friendImg">
+				</div> -->
+				
+				<hr>
+
+				<h5>Instructions: Read question then answer it by choosing a number between 1 (Strongly Disagree) and 5 (Strongly Agree) from the dropdown.</h5>
+				<br>
+				<div class="form-group">
+					<label for="question1">Question 1: Do you want to have children?</label>
+					<select class="form-control" id="question1">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question2">Question 2: Do you enjoy the outdoors?</label>
+					<select class="form-control" id="question2">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question3">Question 3: Do you enjoy listening to music?</label>
+					<select class="form-control" id="question3">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question4">Question 4: Do you like watching sports?</label>
+					<select class="form-control" id="question4">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question5">Question 5: Do you enjoy cooking?</label>
+					<select class="form-control" id="question5">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question6">Question 6: Do you like to travel?</label>
+					<select class="form-control" id="question6">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question7">Question 7: Do you like to read books?</label>
+					<select class="form-control" id="question7">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question8">Question 8: Do you participate in sports?</label>
+					<select class="form-control" id="question8">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question9">Question 9: Do you enjoy spending time in a bigcity?</label>
+					<select class="form-control" id="question9">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="question10">Question 10: Do you enjoy spending time alone?</label>
+					<select class="form-control" id="question10">
+						<option value>Select an option</option>
+						<option value=1>1 (Strongly Disagree)</option>
+						<option value=2>2</option>
+						<option value=3>3</option>
+						<option value=4>4</option>
+						<option value=5>5 (Strongly Agree)</option>
+					</select>
+				</div>
+				<br>
+				<button type="submit" class="btn btn-primary submit"><i class="far fa-check-square"></i> Submit Survey</button>
+			</form>
+
+		</div>
+	</div>
+	
+	
+
+	<div class="modal" id="executeModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3 class="modal-title">Friend Match</h3>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+					<h4>Your new friend's name is: <span id="bestName"></span></h4>
+					<img id="bestImg">
+					<!-- <p>Modal body text goes here.</p> -->
+				</div>
+				<div class="modal-footer">
+					<!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+<script type="text/javascript">
+	$(".submit").on("click", function(event) {
+		//prevent it from erasing data before it is captured
+		event.preventDefault();
+		alert("Thank you for submitting to the FriendFinder Survey");
+		// Here we grab the form elements
+		//the question values are returning undefined
+		var newFriend = {
+	        newName: $("#friendName").val().trim(),
+	        newImg: $("#friendImg").val().trim(),
+	       	scores: [
+	       		$("#question1").val(),
+	        	$("#question2").val(),
+	       		$("#question3").val(),
+	        	$("#question4").val(),
+	        	$("#question5").val(),
+	        	$("#question6").val(),
+	        	$("#question7").val(),
+	       		$("#question8").val(),
+	        	$("#question9").val(),
+	        	$("#question10").val()
+	        ]
+    };
+    //log newFriend captured from form
+    //console.log(newFriend);
+    //console.log(newFriend.newName);
+    //this is what I need to do the friend match up
+    //console.log(newFriend.scores);
+    //console.log(newFriend[0].score);
+    $.post("/api/friends", newFriend,
+        function(data) {
+	        // If a best friend match is found
+	        if (data) {
+	            //alert("Yay! You are part of the FriendFinder Network, please wait for your best friend match!");
+	            $('#bestName').text(data.name);
+          		$('#bestImg').attr("src", data.img).addClass("img-fluid");
+	            //show modal with best friend match
+	    		$('#executeModal').modal('toggle');        
+	  	   		//   $('#myModal').on('shown.bs.modal', function () {
+					// 	$('#myInput').trigger('focus')
+				// })
+          	}
+          	// ?
+          	else {
+            	alert("Sorry we are having problems, please try again");
+          	}
+			// Clear the form when submitting
+			$("#friendName").val("");
+			$("#friendImg").val("");
+			$("#question1").val("");
+			$("#question2").val("");
+			$("#question3").val("");
+			$("#question4").val("");
+			$("#question5").val("");
+			$("#question6").val("");
+			$("#question7").val("");
+			$("#question8").val("");
+			$("#question9").val("");
+			$("#question10").val("");
+        });
+	});	
+</script>
